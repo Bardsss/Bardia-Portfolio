@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bardia Jahanbakhsh | IT Security & Automation Portfolio</title>
-  <meta name="description" content="Project portfolio for Bardia Jahanbakhsh: IT Security, Power Platform automation, ServiceNow, Power BI, and cybersecurity research." />
+  <title>Bardia Jahanbakhsh | Security & Technology Analyst Portfolio</title>
+  <meta name="description" content="Project portfolio for Bardia Jahanbakhsh: security analysis, general technology analysis, Power Platform automation, ServiceNow, Power BI, and cybersecurity research." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <nav class="nav">
-      <a class="logo" href="#top">BJ</a>
-      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <a class="logo" href="#top" aria-label="Bardia Jahanbakhsh home">B</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
       <div class="nav-links">
-        <a href="#pcl">PCL Projects</a>
+        <a href="#pcl">Applications</a>
+        <a href="#evidence">Evidence</a>
         <a href="#security">Security Research</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -24,25 +25,25 @@
   <main id="top">
     <section class="hero">
       <div class="hero-content">
-        <p class="eyebrow">IT Security • Automation • Governance</p>
+        <p class="eyebrow">Security Analysis / Technology Analysis / Automation</p>
         <h1>Bardia Jahanbakhsh</h1>
         <p class="subtitle">
           Computer Science student building secure, scalable enterprise solutions across Power Platform,
-          ServiceNow, Power BI, and cybersecurity research.
+          ServiceNow, Power BI, cybersecurity research, and practical business technology workflows.
         </p>
         <div class="hero-actions">
-          <a class="btn primary" href="#pcl">View Projects</a>
+          <a class="btn primary" href="#pcl">View Applications</a>
           <a class="btn secondary" href="#contact">Contact Me</a>
         </div>
       </div>
 
       <div class="hero-card">
-        <h2>Interview Snapshot</h2>
+        <h2>Snapshot</h2>
         <ul>
-          <li><strong>Focus:</strong> IT Security Analyst / SOC readiness</li>
+          <li><strong>Focus:</strong> Security Analyst and general Technology Analyst roles</li>
           <li><strong>Certifications:</strong> Security+, AZ-900, SC-900</li>
           <li><strong>In Progress:</strong> CISA</li>
-          <li><strong>Strength:</strong> Enterprise automation + security governance</li>
+          <li><strong>Strength:</strong> Enterprise automation, reporting, and security governance</li>
         </ul>
       </div>
     </section>
@@ -50,107 +51,253 @@
     <section class="section summary">
       <h2>Professional Summary</h2>
       <p>
-        I’m a Computer Science student at Mount Royal University with hands-on experience in enterprise IT,
+        I am a Computer Science student at Mount Royal University with hands-on experience in enterprise IT,
         workflow automation, service management, and security governance. My work connects technical delivery
-        with operational excellence: standardizing data, reducing manual effort, improving auditability, and helping
-        teams make better decisions through automation and reporting.
+        with operational clarity: standardizing data, reducing manual effort, improving auditability, and helping
+        teams make better decisions through secure automation and reporting.
       </p>
     </section>
 
     <section id="pcl" class="section">
       <div class="section-heading">
         <p class="eyebrow">Professional Contributions</p>
-        <h2>PCL Construction Projects</h2>
+        <h2>Applications & Reporting Work</h2>
         <p>
           Case studies below describe the type of work performed while intentionally avoiding confidential business data,
           internal links, and sensitive implementation details.
+        </p>
+        <p class="notice">
+          For company security and confidentiality, sensitive company information, internal names, and confidential
+          business data are omitted or obscured. Any visible data is fabricated for testing unless otherwise stated.
         </p>
       </div>
 
       <div class="project-grid">
         <article class="project-card">
           <div class="card-top">
-            <span class="tag">Power Apps</span>
-            <span class="tag">SharePoint</span>
-            <span class="tag">Power Automate</span>
+            <span class="tag green">Power Apps</span>
+            <span class="tag neutral">SharePoint</span>
+            <span class="tag blue">Power Automate</span>
           </div>
           <h3>CTA Weekly Reporter</h3>
-          <p class="problem"><strong>Problem:</strong> Weekly field reporting needed a more consistent structure so leadership could analyze activity across teams.</p>
-          <p><strong>Solution:</strong> Designed a structured Power Apps reporting workflow backed by SharePoint data models and parent/child records.</p>
-          <p><strong>Impact:</strong> Improved reporting consistency, reduced scattered manual updates, and created cleaner data for executive-style Power BI insights.</p>
-          <p><strong>Security/GRC Relevance:</strong> Stronger auditability, controlled data entry, traceable reporting, and reduced human-error risk.</p>
+          <p class="problem"><strong>Problem:</strong> Weekly field reporting needed clean ServiceNow context and accurate leadership routing without manually maintaining administration lists or reporting hierarchies.</p>
+          <p><strong>Solution:</strong> Designed a structured Power Apps reporting workflow backed by automated scripts that pull ServiceNow information from Azure Blob storage, then verify routing and hierarchy details with a separate Power Automate flow that retrieves organizational data.</p>
+          <p><strong>Impact:</strong> Reduced manual administration management, kept reporting aligned with current org structure, and created cleaner data for executive-style Power BI insights.</p>
+          <p><strong>Security/GRC Relevance:</strong> Stronger auditability, controlled data entry, traceable reporting, and reduced human-error risk in hierarchy-dependent reporting.</p>
+          <a class="card-link" href="#evidence-cta">View Media</a>
         </article>
 
         <article class="project-card">
           <div class="card-top">
-            <span class="tag">Power Apps</span>
-            <span class="tag">Outlook</span>
-            <span class="tag">Automation</span>
+            <span class="tag green">Power Apps</span>
+            <span class="tag red">Outlook</span>
+            <span class="tag neutral">Automation</span>
           </div>
           <h3>Outage Communication Application</h3>
-          <p class="problem"><strong>Problem:</strong> Outage communications needed a faster, more standardized process for drafting and sending updates.</p>
-          <p><strong>Solution:</strong> Built an application to generate structured outage notices, preview content, and support automated communication workflows.</p>
-          <p><strong>Impact:</strong> Increased consistency of outage messaging and reduced the time needed to prepare operational notices.</p>
-          <p><strong>Security/GRC Relevance:</strong> Improved traceability, controlled message structure, and lowered the risk of inconsistent operational communication.</p>
+          <p class="problem"><strong>Problem:</strong> Service degradation notices took too long to draft and had to stay consistent across repeated outage patterns, ServiceNow PRB details, and company-wide communication needs.</p>
+          <p><strong>Solution:</strong> Built a Power Apps workflow with a custom Copilot Studio agent that reads previous user submissions and drafts the service degradation message from the provided ServiceNow PRB description. Added toggleable autocomplete and auto-description features that reuse prior entries to speed up drafting.</p>
+          <p><strong>Impact:</strong> Reduced degradation notice production time from about 46 minutes to about 8 minutes while improving consistency and reducing repetitive writing.</p>
+          <p><strong>Security/GRC Relevance:</strong> Standardized outage communication, preserved clearer submission history, and integrated a second Copilot Studio French translation agent for company-wide outage messaging.</p>
+          <a class="card-link" href="#evidence-outage">View Media</a>
         </article>
 
         <article class="project-card">
           <div class="card-top">
-            <span class="tag">ServiceNow</span>
-            <span class="tag">Power Automate</span>
-            <span class="tag">Incident Tracking</span>
+            <span class="tag blue">ServiceNow</span>
+            <span class="tag neutral">Power Automate</span>
+            <span class="tag red">Copilot Studio</span>
           </div>
-          <h3>ServiceNow Workflow Automation</h3>
-          <p class="problem"><strong>Problem:</strong> Manual ticket workflows can introduce inconsistency, delays, and gaps in documentation.</p>
-          <p><strong>Solution:</strong> Supported workflow automation patterns connecting ticket data with Power Automate and operational reporting processes.</p>
-          <p><strong>Impact:</strong> Helped standardize handling of operational data and improved visibility into service activity.</p>
-          <p><strong>Security/GRC Relevance:</strong> Aligns with incident response documentation, accountability, and audit-ready process design.</p>
+          <h3>ServiceNow Incident AI Initiation</h3>
+          <p class="problem"><strong>Problem:</strong> Newly assigned incidents can sit too long before the requester receives a clear first response, which slows cycle time and creates inconsistent communication.</p>
+          <p><strong>Solution:</strong> Built a Power Automate flow that triggers when an incident is assigned to me, extracts the key ticket context, sends it to a custom Copilot Studio agent, retrieves the generated response, and sends the initial message to the user on my behalf.</p>
+          <p><strong>Impact:</strong> Improves first-touch speed, standardizes user updates, and supports better incident cycle-time metrics through faster initiation and cleaner handoff context.</p>
+          <p><strong>Security/GRC Relevance:</strong> Creates a repeatable communication trail while keeping analyst oversight in the incident workflow.</p>
         </article>
 
         <article class="project-card">
           <div class="card-top">
-            <span class="tag">Power BI</span>
-            <span class="tag">DAX</span>
-            <span class="tag">Data Modeling</span>
+            <span class="tag neutral">Power BI</span>
+            <span class="tag blue">DAX</span>
+            <span class="tag green">Data Modeling</span>
           </div>
           <h3>Power BI Data-Driven Decision Support</h3>
           <p class="problem"><strong>Problem:</strong> Operational data needed to be easier to retrieve, compare, and use inside business applications.</p>
           <p><strong>Solution:</strong> Used Power BI datasets and DAX query patterns to surface useful information inside application workflows.</p>
           <p><strong>Impact:</strong> Supported faster decisions and helped bridge app interfaces with reporting data.</p>
           <p><strong>Security/GRC Relevance:</strong> Encourages governed data access, structured reporting, and cleaner operational visibility.</p>
+          <a class="card-link" href="#evidence-powerbi">View Media</a>
         </article>
+
+        <article class="project-card highlight-card">
+          <div class="card-top">
+            <span class="tag green">Product Concept</span>
+            <span class="tag red">Social Impact</span>
+            <span class="tag blue">Gamified Productivity</span>
+            <span class="tag neutral">In Development</span>
+          </div>
+          <h3>Dopamii</h3>
+          <p><strong>Concept:</strong> Dopamii is a gamified productivity platform that turns everyday tasks into rewards through micro-tasking, in-app currency, digital pet progression, and positive reinforcement.</p>
+          <p><strong>Experience:</strong> Users complete real-life tasks to unlock cosmetics, upgrade pets, and build consistent habits through emotionally engaging feedback loops.</p>
+          <p><strong>Community Impact:</strong> Dopamii is being shaped around campaigns and challenges that can support women's shelters and domestic violence recovery programs, helping connect small daily actions with real-world fundraising and awareness.</p>
+          <p><strong>Pitch:</strong> A productivity app that helps people stay motivated while enabling community-driven initiatives for shelters, safe housing, and recovery resources.</p>
+          <a class="card-link" href="#evidence-dopamii">View Media</a>
+        </article>
+      </div>
+
+      <div id="evidence" class="evidence-block">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">Application Evidence</p>
+          <h2>Images & Recordings</h2>
+        </div>
+
+        <div class="media-grid">
+        <article id="evidence-cta" class="media-group">
+          <div class="media-heading">
+            <h3>CTA Weekly Reporter</h3>
+            <button class="media-open evidence-button" type="button" data-type="video" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Recording%202026-05-01%20143020.mp4" data-title="CTA Weekly Reporter PowerApp Contribution Evidence">Evidence of PowerApp Contribution</button>
+          </div>
+          <p class="media-description">
+            Power Apps reporting workflow supported by automated ServiceNow data pulls from Azure Blob storage and
+            a Power Automate verification flow for organizational hierarchy data, reducing manual administration
+            maintenance for routing and leadership reporting.
+          </p>
+          <div class="media-strip">
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20141552.png" data-title="CTA Weekly Reporter screenshot">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20141552.png" alt="CTA Weekly Reporter screenshot" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20141820.png" data-title="CTA Weekly Reporter entry screen">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20141820.png" alt="CTA Weekly Reporter entry screen" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20141859.png" data-title="CTA Weekly Reporter form step">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20141859.png" alt="CTA Weekly Reporter form step" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20141941.png" data-title="CTA Weekly Reporter workflow screen">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20141941.png" alt="CTA Weekly Reporter workflow screen" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142046.png" data-title="CTA Weekly Reporter input screen">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142046.png" alt="CTA Weekly Reporter input screen" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142206.png" data-title="CTA Weekly Reporter summary screen">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142206.png" alt="CTA Weekly Reporter summary screen" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142243.png" data-title="CTA Weekly Reporter detail screen">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142243.png" alt="CTA Weekly Reporter detail screen" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142401.png" data-title="CTA Weekly Reporter admin screen">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142401.png" alt="CTA Weekly Reporter admin screen" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142432.png" data-title="CTA Weekly Reporter review screen">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142432.png" alt="CTA Weekly Reporter review screen" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142603.png" data-title="CTA Weekly Reporter reporting screen">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142603.png" alt="CTA Weekly Reporter reporting screen" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142751.png" data-title="CTA Weekly Reporter final screen">
+              <img src="assets/CTA%20Weekly%20Reporter-20260502T193827Z-3-001/CTA%20Weekly%20Reporter/Screenshot%202026-05-01%20142751.png" alt="CTA Weekly Reporter final screen" />
+            </button>
+          </div>
+        </article>
+
+        <article id="evidence-outage" class="media-group">
+          <div class="media-heading">
+            <h3>Outage Communication Application</h3>
+            <button class="media-open evidence-button" type="button" data-type="video" data-src="assets/Outage%20Application-20260502T193224Z-3-001/Outage%20Application/Recording%202026-05-01%20151310.mp4" data-title="Outage Communication PowerApp Contribution Evidence">Evidence of PowerApp Contribution</button>
+          </div>
+          <p class="media-description">
+            Power Apps outage workflow using Copilot Studio agents to draft service degradation notices from
+            ServiceNow PRB descriptions, reuse previous submissions for autocomplete, and support French translation
+            for broader company-wide communications.
+          </p>
+          <div class="media-strip">
+            <button class="media-tile media-open video-tile" type="button" data-type="video" data-src="assets/Outage%20Application-20260502T193224Z-3-001/Outage%20Application/Video%20Project.mp4" data-title="Outage Communication Application Recording">
+              <span>Application Recording</span>
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/Outage%20Application-20260502T193224Z-3-001/Outage%20Application/Screenshot%202026-05-01%20151339.png" data-title="Outage Communication Application screenshot">
+              <img src="assets/Outage%20Application-20260502T193224Z-3-001/Outage%20Application/Screenshot%202026-05-01%20151339.png" alt="Outage Communication Application screenshot" />
+            </button>
+          </div>
+        </article>
+
+        <article id="evidence-powerbi" class="media-group">
+          <div class="media-heading">
+            <h3>ServiceNow Power BI</h3>
+            <span>Images</span>
+          </div>
+          <p class="media-description">
+            Reporting and decision-support views connecting operational service data with Power BI analysis so
+            incident and workflow information can be reviewed more clearly by technical and business stakeholders.
+          </p>
+          <div class="media-strip">
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/ServiceNOW%20PowerBI-20260502T193830Z-3-001/ServiceNOW%20PowerBI/Screenshot%202026-05-01%20152939.png" data-title="ServiceNow Power BI dashboard screenshot">
+              <img src="assets/ServiceNOW%20PowerBI-20260502T193830Z-3-001/ServiceNOW%20PowerBI/Screenshot%202026-05-01%20152939.png" alt="ServiceNow Power BI dashboard screenshot" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/ServiceNOW%20PowerBI-20260502T193830Z-3-001/ServiceNOW%20PowerBI/Screenshot%202026-05-01%20153017.png" data-title="ServiceNow Power BI report screenshot">
+              <img src="assets/ServiceNOW%20PowerBI-20260502T193830Z-3-001/ServiceNOW%20PowerBI/Screenshot%202026-05-01%20153017.png" alt="ServiceNow Power BI report screenshot" />
+            </button>
+            <button class="media-tile media-open" type="button" data-type="image" data-src="assets/ServiceNOW%20PowerBI-20260502T193830Z-3-001/ServiceNOW%20PowerBI/Screenshot%202026-05-01%20153051.png" data-title="ServiceNow Power BI data screenshot">
+              <img src="assets/ServiceNOW%20PowerBI-20260502T193830Z-3-001/ServiceNOW%20PowerBI/Screenshot%202026-05-01%20153051.png" alt="ServiceNow Power BI data screenshot" />
+            </button>
+          </div>
+        </article>
+
+        <article id="evidence-dopamii" class="media-group">
+          <div class="media-heading">
+            <h3>Dopamii</h3>
+            <span>In Development</span>
+          </div>
+          <p class="media-description">
+            Gamified productivity concept with micro-tasking, rewards, and digital pets, paired with a community
+            impact model for campaigns supporting women's shelters and domestic violence recovery programs.
+          </p>
+          <div class="media-strip phone-strip">
+            <button class="media-tile phone-tile media-open" type="button" data-type="image" data-src="assets/Dopamii/IMG_0090.jpg" data-title="Dopamii concept image">
+              <img src="assets/Dopamii/IMG_0090.jpg" alt="Dopamii concept image" />
+            </button>
+            <button class="media-tile phone-tile media-open" type="button" data-type="image" data-src="assets/Dopamii/IMG_0091.jpg" data-title="Dopamii product image">
+              <img src="assets/Dopamii/IMG_0091.jpg" alt="Dopamii product image" />
+            </button>
+            <button class="media-tile phone-tile media-open" type="button" data-type="image" data-src="assets/Dopamii/IMG_0092.jpg" data-title="Dopamii experience image">
+              <img src="assets/Dopamii/IMG_0092.jpg" alt="Dopamii experience image" />
+            </button>
+            <button class="media-tile phone-tile media-open" type="button" data-type="image" data-src="assets/Dopamii/IMG_0093.jpg" data-title="Dopamii app image">
+              <img src="assets/Dopamii/IMG_0093.jpg" alt="Dopamii app image" />
+            </button>
+          </div>
+        </article>
+        </div>
       </div>
     </section>
 
     <section id="security" class="section alt">
       <div class="section-heading">
-        <p class="eyebrow">Personal Projects</p>
-        <h2>Cybersecurity Research & Learning</h2>
+        <p class="eyebrow">Cybersecurity Research</p>
+        <h2>AI-Based Phishing Detection Research</h2>
+        <p class="research-date">Starting Date: August 2026</p>
       </div>
 
       <div class="timeline">
         <article>
-          <h3>AI-Based Phishing Detection Research</h3>
+          <h3>Project Description</h3>
           <p>
-            Research project exploring phishing and social engineering detection using traditional machine learning
-            and transformer-based approaches. Planned comparisons include TF-IDF + Logistic Regression versus
-            DistilBERT-style models, with metrics such as accuracy, precision, recall, and F1.
+            Research based on the attached cybersecurity project proposal, focused on detecting phishing and social
+            engineering attempts through AI-assisted analysis. The work compares traditional machine learning methods
+            with transformer-based language models to evaluate practical detection performance.
           </p>
         </article>
 
         <article>
-          <h3>Security Monitoring & SIEM Practice</h3>
+          <h3>Planned Analysis</h3>
           <p>
-            Practicing SOC-style thinking through alert triage, log review, suspicious login patterns, failed authentication
-            analysis, and Microsoft Sentinel/KQL concepts.
+            Planned comparisons include TF-IDF plus Logistic Regression against DistilBERT-style models, using
+            accuracy, precision, recall, and F1 score to judge effectiveness and tradeoffs for analyst-facing use.
           </p>
         </article>
 
         <article>
-          <h3>Incident Response Playbook Practice</h3>
+          <h3>Security Analyst Relevance</h3>
           <p>
-            Building comfort with incident response phases: detection, validation, containment, eradication, recovery,
-            lessons learned, documentation, and escalation.
+            The project supports SOC-style thinking: suspicious message review, risk scoring, false-positive awareness,
+            repeatable evidence gathering, and clear explanation of why an item may be malicious.
           </p>
         </article>
       </div>
@@ -184,18 +331,31 @@
 
     <section id="contact" class="section contact">
       <h2>Contact</h2>
-      <p>Open to internship opportunities in IT security, SOC operations, enterprise automation, and governance-focused technology roles.</p>
+      <p>Open to internships and early-career roles in security analysis, SOC operations, technology analysis, enterprise automation, and governance-focused technology work.</p>
       <div class="contact-links">
-        <a href="mailto:bjaha595@mtroyal.ca">bjaha595@mtroyal.ca</a>
-        <a href="tel:+15875817679">587-581-7679</a>
-        <span>Calgary, Alberta</span>
+        <a href="mailto:bjaha595@mtroyal.ca">University: bjaha595@mtroyal.ca</a>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Bardia Jahanbakhsh. Built for GitHub Pages.</p>
+    <p>&copy; 2026 Bardia Jahanbakhsh. Built for GitHub Pages.</p>
   </footer>
+
+  <div class="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" data-lightbox-close></div>
+    <div class="lightbox-shell" role="dialog" aria-modal="true" aria-label="Gallery viewer">
+      <div class="lightbox-top">
+        <p class="lightbox-title">Gallery item</p>
+        <button class="lightbox-close" type="button" aria-label="Close gallery" data-lightbox-close>&times;</button>
+      </div>
+      <div class="lightbox-stage">
+        <button class="lightbox-arrow prev" type="button" aria-label="Previous gallery item">&#8249;</button>
+        <div class="lightbox-media"></div>
+        <button class="lightbox-arrow next" type="button" aria-label="Next gallery item">&#8250;</button>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
